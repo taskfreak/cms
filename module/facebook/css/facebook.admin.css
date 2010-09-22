@@ -1,0 +1,10 @@
+.box div.hxxl div.hsm {
+	height: 2.5em;
+	background-color: #ddd;
+}
+.box div.hxxl div.hsm div.col {
+	height: 1.5em;
+}
+#main #accordion div.hsm h4 {
+	padding: 3px;
+}

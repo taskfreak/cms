@@ -1,0 +1,32 @@
+#mailing_form ol.fields {
+	width: 400px;
+	padding: 1em 100px 1em 1em;
+	background-image: url(../images/bg_newsletter.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	border: 3px solid #e0d9c9;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+#mailing_form p.message {
+	margin: .5em 0 .5em 0;
+	width: 500px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+#mailing_form p.high {
+	padding: .5em;
+	background-color: #ffd;
+	border: 2px solid #fe9;
+}
+#mailing_form p.error {
+	padding: .5em;
+	background-color: #fdd;
+	border: 2px solid #ecc;
+}
+.mailing_cnil {
+	font-size:11px;
+	margin: 12px 0;
+}

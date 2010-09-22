@@ -1,0 +1,2 @@
+<?php
+$objPage->printContent();

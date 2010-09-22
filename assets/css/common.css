@@ -1,0 +1,89 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td, hr {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+}
+h2 {
+}
+h3 {
+}
+p {
+	padding-bottom: 9px;
+}
+ul, ol {
+	padding: 0 0 5px 25px;
+}
+ul ul, ol ol {
+	padding: 0 0 5px 15px;
+}
+ul li {
+	/* list-style-image: url(../images/bullet.png); */
+	padding: 2px 0 3px 0;
+}
+ol li {
+	padding: 2px 0 3px 0;
+}
+a img {
+	border: 0 none;
+}
+a, a:active {
+	outline: none;
+}
+/* alignment */
+.lft {
+	text-align: left;
+}
+.ctr {
+	text-align: center;
+}
+.rgt {
+	text-align: right;
+}
+.jty {
+	text-align: justify;
+}
+/* floating */
+.flft {
+	float: left;
+}
+.frgt {
+	float: right;
+}
+.clft {
+	clear: left;
+}
+.crgt {
+	clear: right;
+}
+img.flft {
+	margin-right: 6px;
+}
+img.frgt {
+	margin-left: 6px;
+}
+hr.clear {
+	clear: left;
+	border: 0 none;
+	height: 0;
+	visibility: hidden;
+}
+hr.sep {
+	clear: right;
+	border: 0 none;
+	height: 8px;
+	visibility: hidden;
+}
+hr.separator {
+	padding-bottom: 10px;
+}
+.marge {
+	margin-left: 10px;
+}
+.homer {
+	margin-bottom: 10px;
+}
+.bart {
+	margin-left: 124px;
+}

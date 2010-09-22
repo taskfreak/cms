@@ -1,0 +1,22 @@
+.content img.lft {
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+.content img.rgt {
+	float: right;
+	margin: 0px 0px 10px 10px;
+}
+.content img.ctr {
+
+}
+.content div.rgtlist {
+	float: right;
+}
+.content div.doclist ul {
+	margin: 10px 0px 0px 20px;
+	padding: 0px;
+}
+.content div.doclist li {
+	padding: 0px 0px 6px 0px;
+	list-style: square outside;
+}

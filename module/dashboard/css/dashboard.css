@@ -1,0 +1,64 @@
+.col {
+	padding: 10px;
+	background: #e6e6e6;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+.cl2 {
+	margin-bottom: 20px;
+}
+.col h2 {
+	margin: 0;
+	padding: 6px;
+	color: #333;
+}
+#col-comm {
+	float: left;
+	width: 60%;
+}
+.content .comment_item .comment_short {
+	max-height: 2em;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+#col-news {
+	margin-left: 65%;
+}
+#col-events {
+	margin-left: 65%;
+}
+.content .col .item {
+	margin: 5px 0;
+	padding: 5px 10px 5px 5px;
+	background: #f9f9f9;
+	border: 1px solid #e3e3e3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	min-height: 60px;
+}
+.content .col .item h4 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	padding: 2px 0;
+}
+.content .col .item h4 a {
+	text-decoration: none;
+}
+.content .easyclick:hover {
+	background: #f3f3f3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e9e9e9));
+	background: -moz-linear-gradient(top,  #fff,  #e9e9e9);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#e9e9e9');
+}
+.content .col .item p {
+	padding: 6px 0;
+}
+.content .col .item p.head {
+	color: #666;
+	font-size: 11px;
+}

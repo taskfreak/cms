@@ -1,0 +1,91 @@
+/* generalities */
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td, hr {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #fff;
+}
+#global {
+	position: relative;
+	min-height: 100%;
+}
+* html #global {
+	height: 100%;
+}
+/* default styles */
+h1 {
+}
+h2 {
+}
+h3 {
+}
+p {
+	padding-bottom: 9px;
+}
+ul, ol {
+	padding: 0 0 5px 25px;
+}
+ul ul, ol ol {
+	padding: 0 0 5px 15px;
+}
+ul li {
+	padding: 2px 0 3px 0;
+}
+ol li {
+	padding: 2px 0 3px 0;
+}
+a:link {
+	color: #606;
+}
+a:visited {
+	color: #828;
+}
+a:hover {
+	color: #303;
+}
+a img {
+	border: 0 none;
+}
+/* header styles */
+#header {
+	padding: 5px 10px;
+	background-color: #e6e6e6;
+	border-bottom: 1px solid #ccc;
+}
+#header h1 {
+}
+/* content styles */
+#content p {
+}
+/* footer */
+#footer {
+	position: relative;
+	margin-top: -35px;
+	height: 24px;
+	padding: 5px 10px;
+	background-color: #e6e6e6;
+	border-top: 1px solid #ccc;
+}
+#footer.loading input {
+	background: url(spinner.gif) no-repeat right center;
+}
+#error {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 300px;
+	margin-left: -160px;
+	text-align: center;
+	padding: 5px;
+	color: #fff;
+	background-color: #c33;
+	border: 3px solid #900;
+}

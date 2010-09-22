@@ -1,0 +1,111 @@
+#tzneditor {
+}
+/* tabs */
+#tzneditor ul.tzntabs {
+	margin: 0;
+	padding: 0;
+	height: 24px;
+}
+#tzneditor ul.tzntabs li {
+	font-size: 12px;
+	margin: 0 1px 0 1px;
+	padding: 0;
+	height: 20px;
+	float: left;
+	list-style: none;
+}
+#tzneditor ul.tzntabs li a {
+	display: block;
+	padding: 4px 10px;
+	max-width: 120px;
+	color: #fff;
+	background-color: #ccc;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+}
+#tzneditor ul.tzntabs li a:hover {
+	background-color: #999;
+	text-decoration: none;
+}
+#tzneditor ul.tzntabs li a.current {
+	color: #fff;
+	background-color: #036;
+}
+/* panels */
+#tzneditor div.tznpanel {
+	min-height: 320px;
+}
+#tzneditor div.tznframe {
+	border: 1px solid #ccc;
+	padding: 10px;
+	min-height: 290px;
+}
+#tzneditor div.hide {
+	display: none;
+}
+#imglist, #doclist {
+	width: 400px;
+}
+.box #imglist .row, .box #doclist .row {
+	padding: .25em;
+}
+#tzneditor a.del {
+	display: block;
+	float: right;
+	font-size: .917em;
+	color: #ccc;
+	border: 1px solid #ccc;
+	padding: 0px 2px 0px 2px;
+	text-align: center;
+}
+#tzneditor a.del:hover {
+	border: 1px solid firebrick;
+	background-color: #c33;
+	text-decoration: none;
+}
+#tzneditor div.layout {
+	float: left;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	vertical-align: bottom;
+}
+div#imgconfirm {
+	margin: .5em 0 .5em 0;
+	padding: .5em 1em .5em 1em;
+	border: 1px solid #cc9;
+	background-color: #ffc;
+}
+#tzneditor_pop_img {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+	z-index: 300;
+	behavior: url(js/ie-fixed.htc);
+	display:none;
+}
+#tzneditor_pop_img table {
+	background-color: #333;
+	border-collapse: collapse;
+	border: 2px solid #999;
+}
+#tzneditor_pop_img table th {
+	text-align: right;
+	margin: 0 0 2px 0;
+	padding: 2px;
+	border: 2px solid #999;
+	color: #fff;
+}
+#tzneditor_pop_img table td {
+	text-align: left;
+	margin: 0 0 2px 0;
+	padding: 2px;
+	border: 2px solid #999;
+	color: #fff;
+}
+#tzneditor_pop_img td input, #tzneditor_pop_img td select {
+	width: 250px;
+}

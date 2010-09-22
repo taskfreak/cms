@@ -1,0 +1,20 @@
+html, body {
+	margin: 0 !important;
+	background: #fff;
+	background-image: none;
+}
+#header, #user, #menu, #footer {
+	display:none;
+}
+#global {
+	position: relative;
+	top: 0px !important;
+	height: auto;
+	min-height: auto;
+}
+#content {
+	padding-bottom: 10px;
+}
+#main.content {
+	margin-top: 10px;
+}

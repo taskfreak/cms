@@ -1,0 +1,84 @@
+.content .comment_list {
+	clear: both;
+}
+.content .comment_item {
+	clear: left;
+	margin: 5px 0;
+	padding: 5px 10px 5px 5px;
+	background: #f9f9f9;
+	border: 1px solid #e3e3e3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	min-height: 90px;
+}
+.content .comment_item .comment_action {
+	float: right;
+	font-size: .9em;
+}
+.content .comment_item .comment_action a {
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+	filter: alpha(opacity=60);
+	text-decoration: none;
+}
+.content .comment_item .comment_action a:hover {
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}
+.content .comment_item .comment_head {
+	float: left;
+	height: 90px;
+	text-align: center;
+	overflow: hidden;
+}
+.content .comment_item .comment_head img {
+	margin-top: 5px;
+	padding: 3px;
+	border: 1px solid #999;
+	background-color: #fff;
+}
+.content .comment_item .comment_head p {
+	display: block;
+	width: 80px;
+	padding: 2px 0;
+	font-size: 10px;
+}
+.content .comment_item .comment_date {
+	font-size: 11px;
+	margin: 0 0 0 90px;
+	color: #666;
+	padding: 3px 0 5px 0;
+}
+.content .comment_item h4 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	margin: 0 0 0 90px;
+	padding: 2px 0;
+}
+.content .comment_item h4 a {
+	text-decoration: none;
+}
+.content .comment_item .comment_body {
+	margin: 0 0 0 90px;
+	padding: 5px 0;
+	text-align: justify;
+}
+form#comment_form {
+	padding: 10px 0;
+}
+form#comment_form ol li {
+	padding: 6px 0;
+	list-style: none;
+}
+form#comment_form ol li label {
+	display: block;
+}
+form#comment_form ol li span.tznError {
+	display: block;
+	font-size: .917em;
+	color: #900;
+}

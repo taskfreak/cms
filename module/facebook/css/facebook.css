@@ -1,0 +1,29 @@
+.content h3.contact_cat {
+	clear: left;
+	padding-top: 20px;
+}
+.content ul.contact_lst {
+	margin: 0;
+}
+.content ul.contact_lst li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	width: 180px;
+	padding: 5px 0;
+	margin: 0 20px 10px 0;
+	background: #fff;
+}
+.content ul.contact_lst li img {
+	padding: 5px 0 5px;
+}
+.content ul.contact_lst li address {
+	font-style: normal;
+	font-size: 11px;
+	color: #666;
+}
+.content ul.contact_lst li address strong {
+	font-weight: normal;
+	font-size: 12px;
+	color: #333;
+}

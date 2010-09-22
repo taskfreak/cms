@@ -1,0 +1,62 @@
+form#form_to_data {
+	margin-top: 10px;
+	width: 500px;
+}
+.content p.legal {
+	margin: 10px 5px;
+	font-size: .917em;
+	color: #666;
+	text-align: justify;
+}
+.content ol.fields li {
+	margin-top: 10px;
+}
+.content ol.fields li.nline {
+	clear: left;
+}
+.content ol.fields li ul.col1 {
+	float: left;
+	width: 250px;
+}
+.content ol.fields li ul.col2 {
+	clear: none;
+}
+.content ol.fields li ul li {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.content ol ul {
+	margin-left: 0;
+}
+.content ol ul li {
+	list-style: none;
+}
+/* side */
+#side {
+	float: right;
+	margin-top: 10px;
+	width: 250px;
+}
+/* generic */
+.content #boxError {
+	margin-bottom: .5em;
+	padding: .3em;
+	border: 1px dashed #000;
+	background-color: #fcc;
+}
+.content #boxError p {
+	padding: .5em;
+}
+.content #boxError p span {
+	font-size: .9em;
+	color: #333;
+}
+.content #boxError p span a {
+	font-size: 1em;
+	color: #666;
+}
+.content #boxErrorList {
+	padding: .3em .3em .3em 2em;
+	background-color: #fee;
+}

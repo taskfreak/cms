@@ -1,0 +1,48 @@
+.content ul#fulls {
+	margin: 0;
+}
+.content ul#fulls li  {
+	overflow: hidden;
+	list-style: none;
+	margin: 0 0 20px 0;
+}
+.content ul#fulls li strong {
+	display: block;
+	font-weight: normal;
+	padding: 0 0 9px 0;
+}
+.content ul#fulls li span {
+	display: block;
+	border: 1px solid #ccc;
+	padding: 5px;
+	text-align: center;
+	background-color: #f3f3f3;
+}
+/* pagination */
+.content .paging {
+	clear: left;
+	padding: 12px 0 12px 0;
+	text-align: center;
+}
+.content .paging p {
+	float: left;
+}
+.content .paging a, .content .paging span {
+	padding: 1px 4px;
+	background-color: #ccc;
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.content .paging a {
+	color: #fff;
+	background-color: #999;
+	text-decoration: none;
+}
+.content .paging a:hover {
+	background-color: #666;
+}
+.content .paging span.current {
+	background-color: #333;
+}

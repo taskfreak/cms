@@ -1,0 +1,59 @@
+.content ul#thumbs {
+	margin: 0;
+}
+.content ul#thumbs li  {
+	margin: 0px 10px 5px 0;
+	float: left;
+	text-align: center;
+	border: 1px solid #ccc;
+	list-style: none;
+	overflow: hidden;
+	background-color: #eed;
+	padding: 5px;
+}
+.content ul#thumbs li strong {
+	display: block;
+	font-size: .917em;
+	font-weight: normal;
+	height: 1.2em;
+	overflow: hidden;
+}
+.content ul#thumbs li a {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 0 5px 0px;
+	padding: 2px;
+	background-color: #fff;
+}
+.content ul#thumbs li a img {
+	border: 0 none;
+}
+/* pagination */
+.content .paging {
+	clear: left;
+	padding: 12px 0 12px 0;
+	text-align: center;
+}
+.content .paging p {
+	float: left;
+}
+.content .paging a, .content .paging span {
+	padding: 1px 4px;
+	background-color: #ccc;
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.content .paging a {
+	color: #fff;
+	background-color: #999;
+	text-decoration: none;
+}
+.content .paging a:hover {
+	background-color: #666;
+}
+.content .paging span.current {
+	background-color: #333;
+}

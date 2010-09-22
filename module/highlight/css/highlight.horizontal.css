@@ -1,0 +1,30 @@
+#pic_nav {
+	position: fixed;
+	top: 60px;
+	right: 20px;
+	color: #666;
+	background-color: #000;
+	z-index: 99;
+	padding: 0;
+}
+#pic_nav a {
+	
+}
+#pic_table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #333;
+}
+#pic_table td {
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	background-image: url(../images/bg_load.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#pic_table td.hgh {
+	background-color: #222;
+}
+#pic_table td.end {
+	background-image: url(../images/bg_end.png);
+}

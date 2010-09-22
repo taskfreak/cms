@@ -1,0 +1,7 @@
+TaskFreak! CMS v1.0
+===================
+
+1) Use SQL file located in DOCS/ folder to setup your database
+2) Edit include/config.php for configuration including database settings
+3) Launch your site, login as admin with username "admin" (no password)
+4) Good luck

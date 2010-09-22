@@ -1,0 +1,10 @@
+Allow from all
+Options +FollowSymLinks 
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^([^\/]+)/([a-z0-9_\-]+)\.html /index.php?content=$2 [QSA]
+RewriteRule ^([^\/]+)\.html index.php?title=$1 [QSA]
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^.*[^(\.ico)]$ index.php [L]
+</IfModule>

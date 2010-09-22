@@ -1,0 +1,115 @@
+.content .blog_item {
+	margin: 5px 0;
+	padding: 5px 10px 0;
+	background: #dcdccd;
+	border: 1px solid #dcdccd;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	min-height: 90px;
+}
+.content .blog_item:hover {
+	background: #f3f3e9;
+}
+.content .blog_item h3 {
+	margin: 0;
+	padding: 6px 0 3px;
+}
+.content .blog_item h3 a {
+	color: #369;
+	text-decoration: none;
+}
+.content .blog_item h3 a:hover {
+	color: #06c;
+}
+.content .blog_item .blog_link {
+	text-align: right;
+	font-size: .85em;
+}
+.content h5 {
+	margin: 0 0 10px 0;
+}
+.content .blog_item h5 {
+	font-weight: normal;
+	color: #888;
+	margin: 0 0 6px 0;
+}
+.content .blog_item p.blog_link {
+	
+}
+.content .blog_item p.blog_link a {
+	background: url(../images/puce.png) no-repeat 0 0;
+	padding: 0 0 0 12px;
+}
+.content a.blog_back {
+	float: right;
+	margin: 0 20px;
+	color: #fff;
+	background-color: #a6a69d;
+	padding: 2px 4px;
+	border: 1px solid #996;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+.content a.blog_back:hover {
+	background-color: #996;
+}
+.content p.blog_pagination {
+	padding: 1em 0;
+}
+/* blog article */
+.content .blog_header img {
+	float: left;
+	text-align: center;
+	margin: 0 10px 0 0;
+	padding: 3px;
+	border: 1px solid #999;
+	background-color: #fff;
+}
+.content .blog_header h4 {
+	padding: 4px 5px;
+}
+.content .blog_header p {
+	color: #666;
+	padding: 4px 5px;
+}
+.content .blog_body {
+	margin-top: 20px;
+}
+/*
+.content p.blog_back a {
+	padding: 1px 4px;
+	color: #fff;
+	background-color: #999;
+	text-decoration: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.content p.blog_back a:hover {
+	background-color: #666;
+}
+
+.content a:link, .content a:visited {
+	color: #369;
+}
+.content a:hover {
+	color: #06c;
+}
+.content ul {
+	margin-left: 1.5em;
+	margin-bottom: 1.25em;
+	margin-top: 0.75em;
+}
+.content ul li {
+	list-style-image: url(../images/puce.png);
+}
+.content span.comments {
+	background: url(../images/bulle.png) no-repeat 0 0;
+	padding: 0 0 0 16px;
+}
+*/

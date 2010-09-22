@@ -1,0 +1,29 @@
+#piclist {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#piclist li  {
+	margin: 0px 5px 5px 5px;
+	padding: 2px 2px 2px 2px;
+	float: left;
+	height: 132px;
+	width: 120px;
+	font-size: 0.85em;
+	text-align: center;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+#piclist li strong {
+	display: block;
+	height: 1.4em;
+	overflow: hidden;
+}
+#piclist li span {
+	display: block;
+	text-align: center;
+}
+#piclist li span.img {
+	margin: 5px 0px;
+	height: 90px;
+}

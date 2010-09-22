@@ -1,0 +1,62 @@
+<public:component id="ie-fixed" name="ie-fixed" lightWeight="true"> 
+<public:method name="getAbsolutePosition" />
+<public:attach event="ondocumentready" onevent="init()" />
+<script language="jscript">
+//<![CDATA[
+/**
+ * ie-fixed.htc 1.11
+ * Copyright (C) 2004  Gyuris Gellért <diak@nexum.hu>
+ * This program is licensed under the GPL. http://www.gnu.org/licenses/gpl.txt
+ * 
+ * 2003.07.25 mûködõ verzió
+ * 2003.12.06 eltávolítás
+ * 2004.03.23 pozicionális sémák váltása javítás 
+ *******************************************************************************/
+
+function init() {
+	if ( element.currentStyle.position == 'fixed' ) {
+		initFixedPosition();
+	};
+	element.attachEvent( 'onpropertychange', doPropChange );
+};
+function initFixedPosition() {
+	element.elTopForFixedPosition = ( element.document.compatMode == 'CSS1Compat' ) ? element.document.documentElement : element.document.body;
+	element.nDefaultTopForFixedPosition = parseInt( element.currentStyle.top );
+	element.runtimeStyle.position = 'absolute';
+	element.runtimeStyle.setExpression( 'top', 'getAbsolutePosition()' );
+	element.bFixedPosition = true;
+	element.bFixedPositionInitialized = true;
+};
+function getAbsolutePosition() {
+	return element.nDefaultTopForFixedPosition + element.elTopForFixedPosition.scrollTop + 'px';
+};
+function doPropChange() {
+	if ( event.propertyName == 'style.position' ) {
+		switch ( element.style.position ) {
+			case 'absolute' :
+			case 'relative' :
+			case 'static' :
+				element.runtimeStyle.position = element.style.position;
+				element.runtimeStyle.removeExpression( 'top' );
+				element.runtimeStyle.top = parseInt( element.style.top || element.nDefaultTopForFixedPosition || element.currentStyle.top ) + 'px' ;
+				element.bFixedPosition = false;
+				break;
+			case 'fixed' :
+				if ( !element.bFixedPositionInitialized ) {
+					initFixedPosition();
+				}
+				else if ( element.bFixedPosition == false ) {
+					element.runtimeStyle.position = 'absolute';
+					element.runtimeStyle.setExpression( 'top', 'getAbsolutePosition()' );
+					element.bFixedPosition = true;
+				};
+		};
+	};
+	if ( event.propertyName == 'style.top' ) {
+		element.nDefaultTopForFixedPosition = parseInt( element.style.top );
+	};
+};
+
+//]]>
+</script>
+</public:component>
